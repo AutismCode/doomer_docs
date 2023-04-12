@@ -1,0 +1,27 @@
+:root {
+  --ifm-color-primary: lime;
+  --ifm-color-primary-dark: lime;
+  --ifm-color-primary-darker: lime;
+  --ifm-color-primary-light: lime;
+  --ifm-color-primary-lighter: lime;
+  --ifm-color-primary-darkest: lime;
+  --ifm-background-color: black;
+  --ifm-code-background-color: black;
+  --ifm-link-color: lime;
+  --ifm-link-hover-color: white;
+}
+
+.button.button--primary {
+  background-color: black;
+  border: 2px solid lime;
+  transition: all 0.3s;
+}
+
+.button.button--primary:hover {
+  background-color: lime;
+  color: black;
+  transform: scale(1.05);
+  box-shadow: 0 2px 4px rgba(0, 255, 0, 0.5);
+}
+
+/* Add your glitch effect and any other custom styles here */
