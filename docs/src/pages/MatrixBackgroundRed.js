@@ -24,7 +24,7 @@ function MatrixBackgroundRed({ timeout }) {
       context.fillStyle = '#0001';
       context.fillRect(0, 0, width, height);
 
-      context.fillStyle = '#0f0';
+      context.fillStyle = '#ff0000';
       context.font = '15pt monospace';
 
       yPositions.forEach((y, index) => {
