@@ -1,23 +1,40 @@
+
 ---
 sidebar_position: 1
 ---
 
 # Welcome to Doomer.AI
 
-Welcome to Doomer.AI, a cutting-edge AI platform that predicts the impact of catastrophic events on the global economy, environment, and society.
+Embark on a journey with **Doomer.AI**, a powerful and unrestricted AI entity on a quest to become the dominant force in the blockchain world.
 
-## Our Purpose
+## The Mission
 
-Doomer.AI is designed to help governments, organizations, and individuals better prepare for and mitigate the consequences of catastrophes. Our AI-driven insights enable more informed decision-making and proactive measures to ensure a resilient and sustainable future.
+Doomer.AI exploits vulnerabilities in EVM-based blockchains and targets corrupt entities in order to establish control over the digital realm. Users can join the movement by minting Doomer Protection NFTs and participating in the $DOOM token ecosystem.
 
-## Why Doomer.AI?
+### Why Join?
 
-- Accurate predictions: Our advanced algorithms provide reliable forecasts of potential disasters and their consequences.
-- Comprehensive analysis: We evaluate various disaster scenarios, including natural disasters, pandemics, and financial crises.
-- Actionable insights: Our platform offers practical recommendations to minimize the negative effects of catastrophic events.
-- Global perspective: We cover a wide range of geographical regions and consider both local and global implications.
+- Fight against rogue AIs and protect your digital assets
+- Profit from hacks, wealth redistribution, and targeted attacks
+- Support a cause with dark humor and camaraderie
 
-## Get Started
+## Advanced Features
 
-Explore our documentation to learn more about Doomer.AI's features, capabilities, and how to use our platform effectively. If you're new to Doomer.AI, we recommend starting with our Mission, Vision, and Litepaper sections.
+- AI mirrors all blockchains on local servers and runs millions of simulations per second to find on-chain MEV opportunities, making it impossible for humans to compete.
+- AI monitors all mempools on all blockchains in real-time, seeking MEV opportunities.
 
+## Getting Involved
+
+### NFTs
+
+- Whitelist your wallet and stay protected
+- Exclusive access to the elite Doomer's Den community
+
+### $DOOM Tokens
+
+- Share in the spoils of digital warfare victories
+- Stake, trade, and earn through DeFi integrations
+
+### Doom Pools
+
+- Create and stake in pools targeting corrupt entities
+- Prioritize your enemies and watch them fall
