@@ -24,7 +24,7 @@ function MatrixBackgroundRed({ timeout }) {
       context.fillStyle = '#0001';
       context.fillRect(0, 0, width, height);
 
-      context.fillStyle = '#ff0000';
+      context.fillStyle = '#0f0';
       context.font = '15pt monospace';
 
       yPositions.forEach((y, index) => {
@@ -51,10 +51,10 @@ function MatrixBackgroundRed({ timeout }) {
       style={{
         background: '#000000',
         overflow: 'hidden',
-        position: 'absolute',
+        position: 'fixed',
         height: '100%',
         width: '100%',
-        zIndex: -1,
+        zIndex: 9999,
         left: '0',
         top: '0',
       }}
