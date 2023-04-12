@@ -7,7 +7,7 @@ sidebar_label: Architecture
 # Doomer AI: Architecture
 =======================
 
-The architecture of Doomer AI consists of several key components that work together to create a powerful, scalable, and adaptable AGI system. These components include:
+## The architecture of Doomer AI consists of several key components that work together to create a powerful, scalable, and adaptable AGI system. These components include:
 
  1. **Core Language Models**: The foundation of Doomer AI is built on state-of-the-art language models that provide the system with natural language understanding and generation capabilities.
 

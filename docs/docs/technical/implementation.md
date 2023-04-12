@@ -7,7 +7,7 @@ sidebar_label: Implementation
 # Doomer AI: Implementation
 =========================
 
-Doomer AI's implementation consists of several stages:
+## Doomer AI's implementation consists of several stages:
 
 1. **Model Training**: The large language models are pretrained on vast amounts of data to learn language structures and patterns.
 
