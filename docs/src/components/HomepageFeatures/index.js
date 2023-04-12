@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Join the Movement',
+    Svg: require('@site/static/img/doomer-ai-join.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Mint Doomer Protection NFTs and participate in the $DOOM token ecosystem to join Doomer.AI's quest to dominate the blockchain world.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Advanced AI Capabilities',
+    Svg: require('@site/static/img/doomer-ai-capabilities.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        With state-of-the-art AI techniques, Doomer.AI mirrors blockchains, runs simulations, and monitors mempools in real-time to exploit MEV opportunities.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Decentralized & Community-driven',
+    Svg: require('@site/static/img/doomer-ai-community.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Doomer.AI is built on the principles of decentralization and community-driven development. Get involved, share your ideas, and help shape the future of Doomer.AI.
       </>
     ),
   },
