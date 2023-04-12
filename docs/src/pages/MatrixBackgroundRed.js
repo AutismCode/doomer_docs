@@ -51,7 +51,6 @@ function MatrixBackgroundRed({ timeout }) {
       style={{
         background: '#000000',
         overflow: 'hidden',
-        position: 'fixed',
         height: '100%',
         width: '100%',
         zIndex: 9999,
@@ -62,7 +61,6 @@ function MatrixBackgroundRed({ timeout }) {
       <canvas ref={canvas} />
     </div>
   );
-
 }
 
 export default MatrixBackgroundRed;
