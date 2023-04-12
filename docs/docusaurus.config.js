@@ -70,7 +70,7 @@ const config = {
     ],
   ],
 
-head: [
+  headTags: [
     [
       'link',
       {
