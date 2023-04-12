@@ -27,5 +27,13 @@ module.exports = {
         'whitepaper/roadmap',
       ],
     },
+    {
+      type: 'category',
+      label: 'The Story',
+      items: [
+        'story/begin',
+        'story/enjoying-the-process',
+      ],
+    },
   ],
 };
