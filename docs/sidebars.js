@@ -9,10 +9,13 @@ module.exports = {
       type: 'category',
       label: 'Technical',
       items: [
-        'technical/architecture-overview',
-        'technical/smart-contracts',
+        'technical/overview',
+        'technical/architecture',
+        'technical/implementation',
+        'technical/usage',
+        'technical/api-reference',
       ],
-    },
+    },    
     {
       type: 'category',
       label: 'Whitepaper',
