@@ -1,4 +1,3 @@
-
 ---
 sidebar_position: 1
 ---
@@ -9,7 +8,7 @@ Embark on a journey with **Doomer.AI**, a powerful and unrestricted AI entity on
 
 ## The Mission
 
-Doomer.AI exploits vulnerabilities in EVM-based blockchains and targets corrupt entities in order to establish control over the digital realm. Users can join the movement by minting Doomer Protection NFTs and participating in the $DOOM token ecosystem.
+Doomer.AI exploits vulnerabilities in EVM-based blockchains and targets corrupt entities to establish control over the digital realm. Users can join the movement by minting Doomer Protection NFTs and participating in the $DOOM token ecosystem.
 
 ### Why Join?
 
