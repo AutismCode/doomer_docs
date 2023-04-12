@@ -9,7 +9,7 @@ module.exports = {
       type: 'category',
       label: 'Eco System',
       items: [
-        'ecosystem/ecosystem',
+        'ecosystem/system',
         'ecosystem/features',
         'ecosystem/integrations',
         'ecosystem/goals',

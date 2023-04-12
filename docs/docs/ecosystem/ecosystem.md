@@ -1,7 +1,7 @@
 ---
-id: ecosystem
+id: system
 title: Eco System
-sidebar_label: Ecosystem
+sidebar_label: system
 ---
 
 

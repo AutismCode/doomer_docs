@@ -32,7 +32,7 @@ const config = {
           position: 'left',
           label: 'Start',
         },
-        {to: '/docs/ecosystem/ecosystem', label: 'Eco System', position: 'left'},
+        {to: '/docs/ecosystem/system', label: 'Eco System', position: 'left'},
         {to: '/docs/technical/overview', label: 'Technical Docs', position: 'left'},
         {to: '/docs/whitepaper/introduction', label: 'Whitepaper', position: 'left'},
         {to: '/docs/story/begin', label: 'The Story', position: 'left'},
