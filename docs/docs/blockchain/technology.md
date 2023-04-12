@@ -1,5 +1,5 @@
 ---
-id: blockchain-technology
+id: technology
 title: Technology
 sidebar_label: Technology
 ---

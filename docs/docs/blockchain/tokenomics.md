@@ -1,5 +1,5 @@
 ---
-id: blockchain-tokenomics
+id: tokenomics
 title: Tokenomics
 sidebar_label: Tokenomics
 ---

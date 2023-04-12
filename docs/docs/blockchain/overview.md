@@ -1,5 +1,5 @@
 ---
-id: blockchain-overview
+id: overview
 title: Blockchain Overview
 sidebar_label: Overview
 ---
