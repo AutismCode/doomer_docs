@@ -4,7 +4,7 @@ title: Implementation
 sidebar_label: Implementation
 ---
 
-Doomer AI: Implementation
+# Doomer AI: Implementation
 =========================
 
 Doomer AI's implementation consists of several stages:
