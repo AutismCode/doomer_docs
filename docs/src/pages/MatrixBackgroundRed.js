@@ -7,7 +7,7 @@ function MatrixBackgroundRed({ timeout }) {
     const context = canvas.current.getContext('2d');
 
     const width = document.body.offsetWidth;
-    const height = document.body.offsetHeight;
+    const height = canvas.current.parentNode.offsetHeight;
     canvas.current.width = width;
     canvas.current.height = height;
 
@@ -49,11 +49,11 @@ function MatrixBackgroundRed({ timeout }) {
   return (
     <div
       style={{
-        background: '#000000',
+        position: 'absolute',
         overflow: 'hidden',
         height: '100%',
         width: '100%',
-        zIndex: 9999,
+        zIndex: -1,
         left: '0',
         top: '0',
       }}
