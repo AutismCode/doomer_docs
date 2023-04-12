@@ -1,8 +1,9 @@
 ---
-id: eco-system
+id: ecosystem
 title: Eco System
-sidebar_label: Eco System
+sidebar_label: Ecosystem
 ---
+
 
 #  The Eco System
 

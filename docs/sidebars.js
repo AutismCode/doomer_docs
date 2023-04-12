@@ -57,12 +57,5 @@ module.exports = {
         'story/the-transformation',
       ],
     },
-    {
-      type: 'category',
-      label: 'News & Updates',
-      items: [
-        'blog',
-      ],
-    },
   ],
 };
