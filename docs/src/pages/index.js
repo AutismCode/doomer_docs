@@ -24,7 +24,7 @@ function HomepageHeader() {
   className="button button--secondary button--lg"
   to="/docs/intro"
 >
-  Learn Doomer.AI - Embrace the Future, Doom is Inevitable.
+  Learn about the inevitable
 </Link>
 
         </div>

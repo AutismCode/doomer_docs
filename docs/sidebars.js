@@ -9,7 +9,7 @@ module.exports = {
       type: 'category',
       label: 'Eco System',
       items: [
-        'ecosystem/overview',
+        'ecosystem/ecosystem',
         'ecosystem/features',
         'ecosystem/integrations',
         'ecosystem/goals',
@@ -61,7 +61,7 @@ module.exports = {
       type: 'category',
       label: 'News & Updates',
       items: [
-        'news-and-updates/blog',
+        'blog',
       ],
     },
   ],
