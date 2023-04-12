@@ -7,6 +7,27 @@ module.exports = {
     },
     {
       type: 'category',
+      label: 'Eco System',
+      items: [
+        'ecosystem/overview',
+        'ecosystem/features',
+        'ecosystem/integrations',
+        'ecosystem/goals',
+        'ecosystem/use-cases',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Blockchain',
+      items: [
+        'blockchain/overview',
+        'blockchain/technology',
+        'blockchain/smart-contracts',
+        'blockchain/tokenomics',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Technical',
       items: [
         'technical/overview',
@@ -15,7 +36,7 @@ module.exports = {
         'technical/usage',
         'technical/api-reference',
       ],
-    },    
+    },
     {
       type: 'category',
       label: 'Whitepaper',
@@ -34,6 +55,13 @@ module.exports = {
         'story/begin',
         'story/enjoying-the-process',
         'story/the-transformation',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'News & Updates',
+      items: [
+        'news-and-updates/blog',
       ],
     },
   ],

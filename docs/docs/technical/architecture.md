@@ -6,6 +6,48 @@ sidebar_label: Architecture
 
 # Doomer AI: Architecture
 
+
+## 0. The CORE
+
+### Reflexion: An Autonomous Agent with Dynamic Memory and Self-Reflection
+
+In this recent paper, "Reflexion: An Autonomous Agent with Dynamic Memory and Self-Reflection," we introduce a framework that allows AI agents to emulate human-like self-reflection and evaluate its performance on the ALFWorld and HotpotQA benchmarks. Our goal was to create AI agents that learn by reflecting on failures and enhancing their results, much like humans do. If you're interested in exploring this further, we've made all the code and logs available for you to access at [link].
+
+### Reflexion Without Definitive Ground Truth
+
+In complex situations where a definitive ground truth is absent, it becomes crucial to leverage adaptive learning methods that mimic human problem-solving strategies. The Reflexion framework enables AI agents to explore multiple potential solutions while continuously refining their approach based on self-generated internal tests. This iterative learning process, which closely resembles human learning, helps to identify high-confidence solutions without being limited by the absence of a clear ground truth.
+
+In order to facilitate this learning process, the agent starts by developing an understanding of the problem's context, creating an internal test suite to evaluate potential solutions. This process can include generating new test cases or combining existing ones to create a diverse set of evaluation criteria. With each iteration, the agent updates its confidence level in the current solution, modifying and refining its approach until an acceptable solution is found. This method enables the agent to adapt to changing circumstances and solve problems that may not have a fixed or predetermined solution.
+
+### Applying Reflexion to HumanEval
+
+When applying the Reflexion framework to the HumanEval dataset, we observed significant improvements in code generation accuracy. By iteratively refining the current implementation based on the internal tests, the agent's performance is no longer solely dependent on generating syntactically and semantically correct code but also on designing accurate and diverse tests. This shift allows the agent to focus more on test generation, which is generally considered an easier task compared to code generation.
+
+The application of Reflexion to HumanEval highlights the potential benefits of using iterative learning approaches in various AI domains. By continuously refining the agent's understanding of the problem and adapting its solution, it becomes possible to achieve higher levels of accuracy and more robust performance across a wide range of tasks.
+
+### Relaxing Success Evaluation
+
+In scenarios where a definitive ground truth is not available, relaxing the success evaluation criteria allows the agent to focus on achieving high-confidence solutions based on its internal tests. This flexible approach to success evaluation enables the agent to explore a broader range of possible solutions, increasing its chances of finding a solution that meets the majority of the internal tests' constraints.
+
+To implement this relaxed success evaluation, the agent first designs and generates a set of diverse internal tests. Then, the agent iteratively refines its implementation based on the feedback provided by the internal tests. The agent's accuracy is now redefined as its ability to generate accurate tests rather than solely focusing on generating syntactically and semantically correct code.
+
+By employing this relaxed success evaluation in conjunction with the Reflexion framework, AI agents can adapt to a wide range of complex tasks, ultimately surpassing the limitations imposed by the absence of a definitive ground truth.
+
+## Generative Agents: Interactive Simulacra of Human Behavior
+
+The paper "Generative Agents: Interactive Simulacra of Human Behavior" proposes generative agents, which are computational software agents that simulate believable human behavior, and introduces an architecture that extends a large language model to store a complete record of the agent's experiences using natural language.
+
+### Key Insights and Lessons
+
+1. Generative agents can empower interactive applications ranging from immersive environments to rehearsal spaces for interpersonal communication to prototyping tools.
+2. The architecture extends a large language model to store a complete record of the agent's experiences using natural language, synthesize those memories over time into higher-level reflections, and retrieve them dynamically to plan behavior.
+3. The generative agents produce believable individual and emergent social behaviors, such as starting conversations, forming opinions, and remembering past experiences.
+4. The paper presents an interactive sandbox environment inspired by The Sims, where end users can interact with a small town of twenty-five agents using natural language.
+
+
+# What else? 
+
+
 Doomer AI is an advanced artificial general intelligence (AGI) system that integrates state-of-the-art research, techniques, and infrastructure to provide a powerful, scalable, and adaptable solution. The architecture comprises several key components:
 
 ## 1. Core Language Models
@@ -90,3 +132,11 @@ MCTS is a search algorithm used for decision-making in complex environments with
 
 By integrating these advanced components and techniques, Doomer AI offers a powerful, scalable, and adaptable artificial general intelligence solution capable of tackling a wide range of tasks and applications.
 
+
+### References:
+
+https://www.lesswrong.com/posts/bGn9ZjeuJCg7HkKBj/introducing-alignmentsearch-an-ai-alignment-informed
+
+https://nanothoughts.substack.com/p/reflecting-on-reflexion
+
+https://arxiv.org/pdf/2304.03442.pdf

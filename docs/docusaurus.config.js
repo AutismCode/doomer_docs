@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
  */
 const config = {
   title: 'Doomer.AI',
-  tagline: 'Unleashing the Power of Decentralized AI',
+  tagline: 'Unleashing the Power of AI',
 
   url: 'https://x.doomer.ai',
   baseUrl: '/',
@@ -30,11 +30,14 @@ const config = {
           type: 'doc',
           docId: 'intro',
           position: 'left',
-          label: 'Let\'s Begin',
+          label: 'Start',
         },
+        {to: '/docs/ecosystem/ecosystem', label: 'Eco System', position: 'left'},
         {to: '/docs/technical/overview', label: 'Technical Docs', position: 'left'},
         {to: '/docs/whitepaper/introduction', label: 'Whitepaper', position: 'left'},
-        {to: '/docs/story/begin', label: 'News', position: 'left'},
+        {to: '/docs/story/begin', label: 'The Story', position: 'left'},
+        {to: '/blog', label: 'Update & News feed', position: 'right'}, // Updated the 'to' attribute for the News link
+
         {
           href: 'https://github.com/Doomer/Doomer',
           label: 'GitHub',

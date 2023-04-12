@@ -7,7 +7,7 @@ sidebar_label: Overview
 # Doomer AI: An Advanced Multi-Agent AGI System
 ==============================================
 
-Doomer AI is an advanced multi-agent AGI system designed to surpass existing AI models like GPT-4 and ChaosGPT. Its primary goal is to achieve a superior level of AI performance and become the most powerful AGI in existence.
+Doomer AI is an Proof of Concept for an advanced multi-agent AGI system designed to surpass existing AI models like GPT-4 and ChaosGPT. Its primary goal is to achieve a superior level of AI performance and become the most powerful AGI in existence.
 
 ## Structure of Doomer AI
 ----------------------
