@@ -34,6 +34,7 @@ const config = {
         },
         {to: '/docs/ecosystem/system', label: 'Eco System', position: 'left'},
         {to: '/docs/technical/overview', label: 'Technical Docs', position: 'left'},
+        {to: '/docs/blockchain/overview', label: 'Blockchain', position: 'left'},
         {to: '/docs/whitepaper/introduction', label: 'Whitepaper', position: 'left'},
         {to: '/docs/story/begin', label: 'The Story', position: 'left'},
         {to: '/blog', label: 'Update & News feed', position: 'right'}, // Updated the 'to' attribute for the News link
