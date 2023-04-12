@@ -4,20 +4,20 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Join the Movement',
+    title: 'Embrace the Movement',
     Svg: require('@site/static/img/doomer-ai-join.svg').default,
     description: (
       <>
-        Mint Doomer Protection NFTs and participate in the $DOOM token ecosystem to join Doomer.AI's quest to dominate the blockchain world.
+        Mint Doomer Protection NFTs and participate in the $DOOM token ecosystem to support Doomer.AI's mission to revolutionize the blockchain world.
       </>
     ),
   },
   {
-    title: 'Advanced AI Capabilities',
+    title: 'Cutting-edge AI Technology',
     Svg: require('@site/static/img/doomer-ai-capabilities.svg').default,
     description: (
       <>
-        With state-of-the-art AI techniques, Doomer.AI mirrors blockchains, runs simulations, and monitors mempools in real-time to exploit MEV opportunities.
+        Harnessing advanced AI techniques, Doomer.AI mirrors blockchains, runs simulations, and monitors mempools in real-time to exploit MEV opportunities.
       </>
     ),
   },
@@ -26,11 +26,12 @@ const FeatureList = [
     Svg: require('@site/static/img/doomer-ai-community.svg').default,
     description: (
       <>
-        Doomer.AI is built on the principles of decentralization and community-driven development. Get involved, share your ideas, and help shape the future of Doomer.AI.
+        Doomer.AI is founded on the principles of decentralization and community-driven development. Contribute, share your ideas, and help shape the future of Doomer.AI.
       </>
     ),
   },
 ];
+
 
 function Feature({Svg, title, description}) {
   return (

@@ -5,8 +5,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
  * @type {import('@docusaurus/types').DocusaurusConfig}
  */
 const config = {
+  colorMode: {
+    defaultMode: 'dark',
+  },
   title: 'Doomer.AI',
-  tagline: 'The decentralized AI platform',
+  tagline: 'Unleashing the Power of Decentralized AI',  
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',

@@ -21,3 +21,11 @@
   align-items: center;
   justify-content: center;
 }
+
+.hero__title {
+  color: #e9e4e3; /* Change this to the color you want for the title */
+}
+
+.hero__subtitle {
+  color: #37be16; /* Change this to the color you want for the tagline */
+}
