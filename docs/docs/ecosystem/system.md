@@ -1,7 +1,7 @@
 ---
 id: system
 title: Eco System
-sidebar_label: system
+sidebar_label: Overview
 ---
 
 
