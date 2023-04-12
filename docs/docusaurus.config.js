@@ -64,27 +64,76 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Doomer.AI',
-        logo: {
-          alt: 'Doomer.AI Logo',
-          src: 'img/logo.svg', // Replace this with the path to your logo file
+  title: 'Doomer.AI',
+  logo: {
+    alt: 'Doomer.AI Logo',
+    src: 'img/logo.svg', // Replace this with the path to your logo file
+  },
+  items: [
+    {
+      to: '/docs/intro',
+      label: "Let's Begin",
+      position: 'left',
+    },
+    {
+      type: 'doc',
+      docId: 'whitepaper',
+      label: 'Whitepaper',
+      position: 'left',
+      items: [
+        {
+          label: 'Introduction',
+          to: '/docs/whitepaper/introduction',
         },
-        items: [
-          {
-            to: '/mission',
-            label: 'Mission',
-            position: 'left',
-          },
-          {
-            to: '/vision',
-            label: 'Vision',
-            position: 'left',
-          },
-          {
-            to: '/litepaper',
-            label: 'Litepaper',
-            position: 'left',
-          },
+        {
+          label: 'Problem Statement',
+          to: '/docs/whitepaper/problem-statement',
+        },
+        {
+          label: 'Solution',
+          to: '/docs/whitepaper/solution',
+        },
+        {
+          label: 'Tokenomics',
+          to: '/docs/whitepaper/tokenomics',
+        },
+        {
+          label: 'Roadmap',
+          to: '/docs/whitepaper/roadmap',
+        },
+      ],
+    },
+    {
+      type: 'doc',
+      docId: 'technical',
+      label: 'Technical Docs',
+      position: 'left',
+      items: [
+        {
+          label: 'Architecture Overview',
+          to: '/docs/technical/architecture-overview',
+        },
+        {
+          label: 'Smart Contracts',
+          to: '/docs/technical/smart-contracts',
+        },
+        {
+          label: 'API Documentation',
+          to: '/docs/technical/api-documentation',
+        },
+        {
+          label: 'Integration Guide',
+          to: '/docs/technical/integration-guide',
+        },
+        {
+          label: 'Security Measures',
+          to: '/docs/technical/security-measures',
+        },
+      ],
+    },
+
+
+
         ],
       },
       footer: {
