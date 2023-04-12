@@ -1,5 +1,5 @@
 :root {
-  --ifm-color-primary: lime;
+  --ifm-color-primary: rgb(255, 51, 0);
   --ifm-color-primary-dark: lime;
   --ifm-color-primary-darker: lime;
   --ifm-color-primary-light: lime;
@@ -24,4 +24,10 @@
   box-shadow: 0 2px 4px rgba(0, 255, 0, 0.5);
 }
 
-/* Add your glitch effect and any other custom styles here */
+.hero__title {
+  color: white;
+}
+
+.hero__subtitle {
+  color: white;
+}
