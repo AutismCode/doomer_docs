@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('@site/static/img/doomer-ai-capabilities.svg').default,
     description: (
       <>
-        Harnessing advanced AI techniques, Doomer.AI mirrors blockchains, runs simulations, and monitors mempools in real-time to exploit MEV opportunities.
+        Harnessing advanced AI techniques, Doomer.AI mirrors blockchains, runs simulations, and monitors in real-time to exploit opportunities.
       </>
     ),
   },
@@ -26,7 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/doomer-ai-community.svg').default,
     description: (
       <>
-        Doomer.AI is founded on the principles of decentralization and community-driven development. Contribute, share your ideas, and help shape the future of Doomer.AI.
+        Doomer.AI is founded on the principles of decentralization and cult-driven development. Contribute, share your ideas, and help shape the future of Doomer.AI.
       </>
     ),
   },
