@@ -53,7 +53,7 @@ function MatrixBackgroundRed({ timeout }) {
         overflow: 'hidden',
         height: '100%',
         width: '100%',
-        zIndex: -1,
+        zIndex: 9999,
         left: '0',
         top: '0',
       }}
