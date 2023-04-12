@@ -24,7 +24,7 @@ function HomepageHeader() {
   className="button button--secondary button--lg"
   to="/docs/intro"
 >
-  Explore Doomer.AI - Embrace the Future
+  Learn Doomer.AI - Embrace the Future, Doom is Inevitable.
 </Link>
 
         </div>
@@ -38,7 +38,7 @@ export default function Home() {
   return (
     <Layout
       title={`Welcome to ${siteConfig.title}`}
-      description="The ultimate force in the blockchain world."
+      description="The ultimate force of doom."
     >
       <HomepageHeader />
       <main>

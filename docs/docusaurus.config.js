@@ -32,8 +32,9 @@ const config = {
           position: 'left',
           label: 'Let\'s Begin',
         },
+        {to: '/docs/story/intro', label: 'Many Words', position: 'left'},
+        {to: '/docs/technical/overview', label: 'Technical Docs', position: 'left'},
         {to: '/docs/whitepaper/introduction', label: 'Whitepaper', position: 'left'},
-        {to: '/docs/technical/architecture-overview', label: 'Technical Docs', position: 'left'},
         {
           href: 'https://github.com/Doomer/Doomer',
           label: 'GitHub',

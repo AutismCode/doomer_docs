@@ -11,6 +11,7 @@ module.exports = {
       items: [
         'story/begin',
         'story/enjoying-the-process',
+        'story/transformation',
       ],
     },
     {
