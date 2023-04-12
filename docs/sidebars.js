@@ -1,7 +1,18 @@
-// @ts-check
-const sidebars = {
-  tutorialSidebar: [
-    'intro',
+module.exports = {
+  mySidebar: [
+    {
+      type: 'doc',
+      label: 'Introduction',
+      id: 'intro',
+    },
+    {
+      type: 'category',
+      label: 'Technical',
+      items: [
+        'technical/architecture-overview',
+        'technical/smart-contracts',
+      ],
+    },
     {
       type: 'category',
       label: 'Whitepaper',
@@ -13,15 +24,5 @@ const sidebars = {
         'whitepaper/roadmap',
       ],
     },
-    {
-      type: 'category',
-      label: 'Technical Docs',
-      items: [
-        'technical/architecture-overview',
-        'technical/smart-contracts',
-      ],
-    },
   ],
 };
-
-module.exports = sidebars;
