@@ -71,12 +71,6 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Docs',
-          },
-          {
             to: '/mission',
             label: 'Mission',
             position: 'left',
