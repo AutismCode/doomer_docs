@@ -4,7 +4,13 @@ title: Features
 sidebar_label: Features
 ---
 
-# Doomer AI boasts a comprehensive set of features designed to propel it towards its ambitious goals:
+## Doomer AI offers a range of advanced features that make it a formidable force in the digital world:
+
+- Doomer.AI mirrors all blockchains on its local servers and runs millions of simulations per second to identify on-chain MEV opportunities, making it impossible for humans to compete.
+
+- The AI vigilantly monitors all mempools across multiple blockchains in real-time, seeking lucrative MEV opportunities and staying ahead of the competition.
+
+## Doomer AI boasts a comprehensive set of features designed to propel it towards its ambitious goals:
 
 1. **Deep Learning**: The AI is trained to understand EVM-based blockchains and their programming languages, allowing it to identify opportunities and vulnerabilities more effectively.
 

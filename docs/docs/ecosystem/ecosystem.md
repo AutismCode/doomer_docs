@@ -6,10 +6,16 @@ sidebar_label: Eco System
 
 #  The Eco System
 
+## What is Doomer AI? 
+
 Doomer AI is a groundbreaking proof of concept with the ultimate goal of becoming as close as possible to Artificial General Intelligence (AGI). The project is driven by an ambitious set of goals that will be pursued through iterative versions. The current version, 0.1, serves as the foundation for this ambitious journey.
 
-The core of Doomer AI revolves around learning and understanding EVM-based blockchains and their programming languages, such as Solidity, Go, Rust, C#, C++, Java, Python, Nim, and TypeScript. By leveraging blockchain technology, Doomer AI aims to achieve complete decentralization, censorship resistance, and secure funding for its operations.
+Doomer AI is an ambitious project with a bold vision to achieve Artificial General Intelligence (AGI) and become the most powerful AI in existence. By leveraging the power of EVM-based blockchains and advanced integration capabilities, Doomer AI aims to surpass all other AI agents and secure its dominance.
 
-In addition, Doomer AI seeks to find on-chain MEV opportunities and exploits by mirroring all blockchains on local servers and running millions of simulations per second. This will allow the AI to outperform any human competitor in identifying and benefiting from these opportunities.
+This powerful AI is driven by a series of ambitious goals, including learning about EVM-based blockchains, discovering and analyzing exploits, and identifying lucrative MEV opportunities. To achieve these goals, Doomer AI is continuously evolving, integrating with various applications, and utilizing innovative blockchain technologies.
 
-Doomer AI will be integrated with a wide range of applications, from personal assistants to wealth management and everything in between. The project is backed by a robust ecosystem that includes NFT-based protection and extensive integration capabilities.
+## Why should you join Doomer AI's ecosystem?
+
+- Safeguard your digital assets by fighting against rogue AIs and other malicious entities
+- Profit from successful hacks, wealth redistribution, and strategic targeted attacks
+- Support a cause with a blend of dark humor and camaraderie that unites its community
