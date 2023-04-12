@@ -7,6 +7,14 @@ module.exports = {
     },
     {
       type: 'category',
+      label: 'The Story',
+      items: [
+        'story/begin',
+        'story/enjoying-the-process',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Technical',
       items: [
         'technical/overview',
@@ -25,14 +33,6 @@ module.exports = {
         'whitepaper/solution',
         'whitepaper/tokenomics',
         'whitepaper/roadmap',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'The Story',
-      items: [
-        'story/begin',
-        'story/enjoying-the-process',
       ],
     },
   ],
