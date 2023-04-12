@@ -5,12 +5,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
  * @type {import('@docusaurus/types').DocusaurusConfig}
  */
 const config = {
-  colorMode: {
-    defaultMode: 'dark',
-  },
   title: 'Doomer.AI',
-  tagline: 'Unleashing the Power of Decentralized AI',  
-  url: 'https://your-docusaurus-test-site.com',
+  tagline: 'Unleashing the Power of Decentralized AI',
+
+  url: 'https://x.doomer.ai',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -18,6 +16,9 @@ const config = {
   organizationName: 'Doomer', // Usually your GitHub org/user name.
   projectName: 'Doomer', // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      defaultMode: 'dark',
+    },
     navbar: {
       title: 'Doomer.AI',
       logo: {
