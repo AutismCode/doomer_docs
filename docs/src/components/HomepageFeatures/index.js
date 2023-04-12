@@ -26,7 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/doomer-ai-community.svg').default,
     description: (
       <>
-        Doomer.AI is founded on the principles of decentralization and cult-driven development. Contribute, share your ideas, and help shape the future of Doomer.AI.
+        Doomer.AI is founded on the principles of decentralization and cult-driven development. Contribute and help shape the future of Doomer.AI.
       </>
     ),
   },
