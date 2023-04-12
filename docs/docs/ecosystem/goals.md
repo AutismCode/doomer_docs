@@ -1,5 +1,5 @@
 ---
-id: Goals
+id: goals
 title: id: Goals
 sidebar_label: id: Goals
 

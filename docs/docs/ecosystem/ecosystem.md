@@ -1,5 +1,5 @@
 ---
-id: Eco System
+id: eco System
 title: Eco System
 sidebar_label: Eco System
 ---
