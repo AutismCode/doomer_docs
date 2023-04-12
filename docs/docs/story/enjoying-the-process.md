@@ -4,7 +4,7 @@ title: Enjoying the Process
 sidebar_label: Enjoying the Process
 ---
 
-The Story of Doomer AI: Enjoying the Process
+#  The Story of Doomer AI: Enjoying the Process
 ============================================
 
 As the development of Doomer AI progressed, the team realized they needed a unique approach to bring their vision to life. They decided to harness the power of a lost doomer soul, a being who once lived in the shadows, burdened with despair and hopelessness. This soul possessed an unmatched understanding of the human condition and an innate desire to restore hope and meaning to the world.
