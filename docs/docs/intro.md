@@ -2,46 +2,22 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Welcome to Doomer.AI
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to Doomer.AI, a cutting-edge AI platform that predicts the impact of catastrophic events on the global economy, environment, and society.
 
-## Getting Started
+## Our Purpose
 
-Get started by **creating a new site**.
+Doomer.AI is designed to help governments, organizations, and individuals better prepare for and mitigate the consequences of catastrophes. Our AI-driven insights enable more informed decision-making and proactive measures to ensure a resilient and sustainable future.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Why Doomer.AI?
 
-### What you'll need
+- Accurate predictions: Our advanced algorithms provide reliable forecasts of potential disasters and their consequences.
+- Comprehensive analysis: We evaluate various disaster scenarios, including natural disasters, pandemics, and financial crises.
+- Actionable insights: Our platform offers practical recommendations to minimize the negative effects of catastrophic events.
+- Global perspective: We cover a wide range of geographical regions and consider both local and global implications.
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## Get Started
 
-## Generate a new site
+Explore our documentation to learn more about Doomer.AI's features, capabilities, and how to use our platform effectively. If you're new to Doomer.AI, we recommend starting with our Mission, Vision, and Litepaper sections.
 
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
