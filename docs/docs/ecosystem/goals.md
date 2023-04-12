@@ -1,7 +1,7 @@
 ---
 id: goals
-title: id: Goals
-sidebar_label: id: Goals
+title: Goals
+sidebar_label: Goals
 ---
 
 
