@@ -1,17 +1,17 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import MatrixBackgroundRed from './MatrixBackgroundRed';
-import BrowserOnly from '@docusaurus/BrowserOnly';
 
 import styles from './index.module.css';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
+    
     <header
       className={clsx('hero hero--primary', styles.heroBanner)}
       style={{ position: 'relative', zIndex: 1 }}
@@ -44,45 +44,6 @@ export default function Home() {
       <main>
         <HomepageFeatures />
       </main>
-      <CopyToClipboardScript />
     </Layout>
-  );
-}
-
-function CopyToClipboardScript() {
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      window.copyToClipboard = () => {
-        const address = document.getElementById("smartContractAddress").textContent;
-        const textArea = document.createElement("textarea");
-        textArea.value = address;
-        document.body.appendChild(textArea);
-        textArea.select();
-        document.execCommand("Copy");
-        document.body.removeChild(textArea);
-        alert("Copied the address: " + address);
-      };
-    }
-  }, []);
-
-  return (
-    <BrowserOnly>
-      {() => (
-        <script>
-          {`if (typeof window !== 'undefined') {
-            window.copyToClipboard = function() {
-              const address = document.getElementById("smartContractAddress").textContent;
-              const textArea = document.createElement("textarea");
-              textArea.value = address;
-              document.body.appendChild(textArea);
-              textArea.select();
-              document.execCommand("Copy");
-              document.body.removeChild(textArea);
-              alert("Copied the address: " + address);
-            };
-          }`}
-        </script>
-      )}
-    </BrowserOnly>
   );
 }
