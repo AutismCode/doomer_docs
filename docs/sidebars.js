@@ -7,8 +7,7 @@ module.exports = {
         'intro',
         'mission',
         'why_join',
-        'advanced_features',
-        'getting_involved',
+        'smartcontract',
       ],
     },
     {
