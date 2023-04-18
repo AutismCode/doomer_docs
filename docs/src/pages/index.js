@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import MatrixBackgroundRed from './MatrixBackgroundRed';
-import copyToClipboard from './copyToClipboard.js';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 import styles from './index.module.css';
 
@@ -48,9 +48,27 @@ export default function Home() {
   );
 }
 
-document.addEventListener('DOMContentLoaded', function () {
+function appendCopyToClipboardScript() {
   const script = document.createElement('script');
-  script.innerHTML = copyToClipboard;
+  script.innerHTML = `
+    function copyToClipboard() {
+      const address = document.getElementById("smartContractAddress").textContent;
+      const textArea = document.createElement("textarea");
+      textArea.value = address;
+      document.body.appendChild(textArea);
+      textArea.select();
+      document.execCommand("Copy");
+      document.body.removeChild(textArea);
+      alert("Copied the address: " + address);
+    }
+  `;
   script.async = true;
   document.body.appendChild(script);
+}
+
+BrowserOnly(() => {
+  useEffect(() => {
+    appendCopyToClipboardScript();
+  }, []);
+  return null;
 });
