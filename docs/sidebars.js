@@ -1,9 +1,15 @@
 module.exports = {
   mySidebar: [
     {
-      type: 'doc',
+      type: 'category',
       label: 'Introduction',
-      id: 'intro',
+      items: [
+        'intro',
+        'mission',
+        'why_join',
+        'advanced_features',
+        'getting_involved',
+      ],
     },
     {
       type: 'category',
