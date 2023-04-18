@@ -1,6 +1,6 @@
 ---
 title: Smartcontract
-sidebar_position: 4
+sidebar_position: 3
 ---
 
 # Smart Contract
@@ -11,9 +11,21 @@ Doomer AI leverages the power of smart contracts to enable secure and decentrali
 
 The Doomer AI smart contract is deployed on the EVM-based blockchain. You can find and interact with the smart contract at the following address:
 
-0x0000001231231312312313123
+<span id="smartContractAddress">0x0000001231231312312313123</span>
+<button onclick="copyToClipboard()">Copy Address</button>
 
-Click on the address above to copy it to your clipboard, and you can paste it anywhere else as needed.
+<script>
+  function copyToClipboard() {
+    const address = document.getElementById("smartContractAddress").textContent;
+    const textArea = document.createElement("textarea");
+    textArea.value = address;
+    document.body.appendChild(textArea);
+    textArea.select();
+    document.execCommand("copy");
+    document.body.removeChild(textArea);
+    alert("Smart Contract Address copied to clipboard!");
+  }
+</script>
 
 ## Decentralized Exchange (DEX)
 
@@ -23,4 +35,3 @@ Visit the following placeholder DEX URL to get started with trading Doomer AI to
 
 [Placeholder DEX URL](https://placeholder.dex.url)
 
-Remember to replace the placeholder URL with the actual URL of the DEX you want to direct users to.

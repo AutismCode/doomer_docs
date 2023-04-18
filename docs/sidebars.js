@@ -6,8 +6,8 @@ module.exports = {
       items: [
         'intro',
         'mission',
-        'why_join',
         'smartcontract',
+        'why_join',
       ],
     },
     {

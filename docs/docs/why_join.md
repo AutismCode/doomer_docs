@@ -1,6 +1,6 @@
 ---
 title: Why Join?
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 - Safeguard your digital assets by fighting against rogue AIs and other malicious entities
