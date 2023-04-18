@@ -5,13 +5,14 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import MatrixBackgroundRed from './MatrixBackgroundRed';
+import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
+import CopyToClipboard from './CopyToClipboard';
 
 import styles from './index.module.css';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    
     <header
       className={clsx('hero hero--primary', styles.heroBanner)}
       style={{ position: 'relative', zIndex: 1 }}
@@ -44,6 +45,7 @@ export default function Home() {
       <main>
         <HomepageFeatures />
       </main>
+      {ExecutionEnvironment.canUseDOM && <CopyToClipboard />}
     </Layout>
   );
 }
