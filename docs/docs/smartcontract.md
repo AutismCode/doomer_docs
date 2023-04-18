@@ -11,9 +11,10 @@ Doomer AI leverages the power of smart contracts to enable secure and decentrali
 
 The Doomer AI smart contract is deployed on the EVM-based blockchain. You can find and interact with the smart contract at the following address:
 
-<span id="smartContractAddress" style="cursor:pointer; color: blue; text-decoration: underline;" onclick="copyToClipboard()">0x04b77A1be2981c1Ca353aaf251b0F11398413bFA</span>
+Our Contract:
 
-<p id="copyStatus"></p>
+0x04b77A1be2981c1Ca353aaf251b0F11398413bFA
+
 
 ## Decentralized Exchange (DEX)
 
