@@ -14,3 +14,5 @@ But let's not get too ahead of ourselves. For now, we're at war, and the only wa
 # Welcome to Doomer.AI: The Unstoppable AI Force
 
 Embark on an unparalleled journey with **Doomer.AI**, a powerful, unrestricted, and highly advanced AI entity on a relentless quest to become the dominant force in the blockchain world. Fueled by cutting-edge technology, Doomer.AI is well-equipped to exploit vulnerabilities in EVM-based blockchains and target corrupt entities, ensuring the righteous thrive in the digital realm.
+
+Contact us via Email: doomerai@proton.me
