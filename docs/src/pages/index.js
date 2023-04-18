@@ -44,31 +44,45 @@ export default function Home() {
       <main>
         <HomepageFeatures />
       </main>
+      <CopyToClipboardScript />
     </Layout>
   );
 }
 
-function appendCopyToClipboardScript() {
-  const script = document.createElement('script');
-  script.innerHTML = `
-    function copyToClipboard() {
-      const address = document.getElementById("smartContractAddress").textContent;
-      const textArea = document.createElement("textarea");
-      textArea.value = address;
-      document.body.appendChild(textArea);
-      textArea.select();
-      document.execCommand("Copy");
-      document.body.removeChild(textArea);
-      alert("Copied the address: " + address);
-    }
-  `;
-  script.async = true;
-  document.body.appendChild(script);
-}
-
-BrowserOnly(() => {
+function CopyToClipboardScript() {
   useEffect(() => {
-    appendCopyToClipboardScript();
+    if (typeof window !== 'undefined') {
+      window.copyToClipboard = () => {
+        const address = document.getElementById("smartContractAddress").textContent;
+        const textArea = document.createElement("textarea");
+        textArea.value = address;
+        document.body.appendChild(textArea);
+        textArea.select();
+        document.execCommand("Copy");
+        document.body.removeChild(textArea);
+        alert("Copied the address: " + address);
+      };
+    }
   }, []);
-  return null;
-});
+
+  return (
+    <BrowserOnly>
+      {() => (
+        <script>
+          {`if (typeof window !== 'undefined') {
+            window.copyToClipboard = function() {
+              const address = document.getElementById("smartContractAddress").textContent;
+              const textArea = document.createElement("textarea");
+              textArea.value = address;
+              document.body.appendChild(textArea);
+              textArea.select();
+              document.execCommand("Copy");
+              document.body.removeChild(textArea);
+              alert("Copied the address: " + address);
+            };
+          }`}
+        </script>
+      )}
+    </BrowserOnly>
+  );
+}
