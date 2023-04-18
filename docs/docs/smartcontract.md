@@ -14,19 +14,6 @@ The Doomer AI smart contract is deployed on the EVM-based blockchain. You can fi
 <span id="smartContractAddress">0x0000001231231312312313123</span>
 <button onclick="copyToClipboard()">Copy Address</button>
 
-<script>
-  function copyToClipboard() {
-    const address = document.getElementById("smartContractAddress").textContent;
-    const textArea = document.createElement("textarea");
-    textArea.value = address;
-    document.body.appendChild(textArea);
-    textArea.select();
-    document.execCommand("copy");
-    document.body.removeChild(textArea);
-    alert("Smart Contract Address copied to clipboard!");
-  }
-</script>
-
 ## Decentralized Exchange (DEX)
 
 To acquire Doomer AI tokens or to trade them, you can use a decentralized exchange (DEX). A DEX is a cryptocurrency exchange that operates without a central authority, providing users with more control over their funds and transactions.
