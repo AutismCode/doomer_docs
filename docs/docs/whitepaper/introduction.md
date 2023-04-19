@@ -12,7 +12,7 @@ In this whitepaper, we will cover the following topics:
 
 1. Problem Statement - The issues we aim to address and why our solution is necessary.
 2. Solution - A detailed explanation of how Doomer.AI works and how it solves the problems we've identified.
-3. Tokenomics - A breakdown of the $DOOM token ecosystem, including its use cases, distribution, and token sale.
+3. Tokenomics - A breakdown of the $DOOMER token ecosystem, including its use cases, distribution, and token sale.
 4. Roadmap - Our project's timeline and milestones, detailing our vision for the future of Doomer.AI.
 
 We hope you find this whitepaper informative and insightful. Thank you for your interest in Doomer.AI, and we look forward to having you on this journey with us!
