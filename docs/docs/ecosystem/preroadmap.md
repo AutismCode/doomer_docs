@@ -1,7 +1,7 @@
 ---
-id: Pre Roadmap
-title: Pre Roadmap
-sidebar_label: Pre Roadmap
+id: roadmapdoomer
+title: RoadmapDoomer
+sidebar_label: RoadmapDoomer
 ---
 
 # Doomer.AI Pre-Roadmap: Spring & Summer 2023
