@@ -17,6 +17,7 @@ module.exports = {
         'ecosystem/system',
         'ecosystem/features',
         'ecosystem/integrations',
+        'ecosystem/preroadmap',
         'ecosystem/goals',
         'ecosystem/use-cases',
       ],
