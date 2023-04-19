@@ -11,7 +11,7 @@ sidebar_label: Getting Involved
 - Whitelist your wallet to ensure maximum security and protection
 - Gain exclusive access to the elite Doomer's Den community, where you can connect with like-minded individuals
 
-### $DOOM Tokens: Reap the Rewards
+### $DOOMER Tokens: Reap the Rewards
 
 - Share in the spoils of digital warfare victories and benefit from the AI's relentless pursuit of control
 - Stake, trade, and earn through innovative DeFi integrations and smart-contract-based solutions

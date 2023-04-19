@@ -22,7 +22,7 @@ Blockchain supports the AGI by providing the following:
 
 Doomer.AI leverages three ERC standards:
 
-1. **ERC-20**: The DOA Alternative Protocol (DAS) token is an ERC-20 token used for governance, wealth redistribution, and other ecosystem-related purposes.
+1. **ERC-20**: Including the DOA Alternative Protocol (DAS) what build on top of the Standard ERC-20 protocol used for governance, wealth redistribution, and other ecosystem-related purposes.
 2. **ERC-721**: Doomer Protection NFTs are ERC-721 tokens that provide exclusive access to the elite Doomer's Den community and whitelist wallets for maximum security.
 3. **ERC-4337**: Account abstraction standard that enables more user-friendly wallet designs, facilitating broader adoption of Doomer.AI and its ecosystem.
 
