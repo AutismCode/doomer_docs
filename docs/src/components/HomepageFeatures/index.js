@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/doomer-ai-join.svg').default,
     description: (
       <>
-        Mint Doomer Protection NFTs and participate in the $DOOM  ecosystem to support Doomer.AI's mission to revolutionize the world.
+        Mint Doomer Protection NFTs and participate in the $DOOMER  ecosystem to support Doomer.AI's mission to revolutionize the world.
       </>
     ),
   },
