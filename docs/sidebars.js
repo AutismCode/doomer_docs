@@ -17,7 +17,7 @@ module.exports = {
         'ecosystem/system',
         'ecosystem/features',
         'ecosystem/integrations',
-        'ecosystem/doadmapdoomer',
+        'ecosystem/roadmapdoomer',
         'ecosystem/goals',
         'ecosystem/use-cases',
       ],
