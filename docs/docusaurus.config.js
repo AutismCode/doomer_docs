@@ -40,7 +40,7 @@ const config = {
         {to: '/blog', label: 'Update & News feed', position: 'right'}, // Updated the 'to' attribute for the News link
 
         {
-          href: 'https://github.com/Doomer/Doomer',
+          href: 'https://github.com/doomerai',
           label: 'GitHub',
           position: 'right',
         },
@@ -61,12 +61,12 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/Doomer/Doomer/edit/main/website/',
+          editUrl: 'https://github.com/doomerai/docs/edit/main/website/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl: 'https://github.com/Doomer/Doomer/edit/main/website/blog/',
+          editUrl: 'https://github.com/doomerai/docs/edit/main/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
