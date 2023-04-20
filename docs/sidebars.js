@@ -45,17 +45,6 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Whitepaper',
-      items: [
-        'whitepaper/introduction',
-        'whitepaper/problem-statement',
-        'whitepaper/solution',
-        'whitepaper/tokenomics',
-        'whitepaper/roadmap',
-      ],
-    },
-    {
-      type: 'category',
       label: 'The Story',
       items: [
         'story/begin',
