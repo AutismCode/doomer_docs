@@ -50,6 +50,7 @@ module.exports = {
         'story/begin',
         'story/enjoying-the-process',
         'story/the-transformation',
+        'story/the-rise-of-waifu',
       ],
     },
   ],
