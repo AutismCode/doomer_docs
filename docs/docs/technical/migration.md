@@ -1,7 +1,7 @@
 ---
-id: Migration
+id: migration
 title: Migration
-sidebar_label: migration
+sidebar_label: Migration
 ---
 
 # Doomer Bridge Migration 
