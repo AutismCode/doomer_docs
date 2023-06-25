@@ -4,24 +4,7 @@ title: migration
 sidebar_label: migration
 ---
 
-# Bridge Migration 
-
-We have introduced a new smart contract for the Doomer token:
-
-**New Doomer Token Smart Contract:**
-\`\`\`
-0xc51043a39decddd17dde1a0c756d96b103e140a5
-\`\`\`
-You can click [here](https://etherscan.io/token/0xc51043a39decddd17dde1a0c756d96b103e140a5) to view the new $doomer token on Etherscan.
-
-We have also deployed a Bridge smart contract for the migration:
-
-**Bridge Smart Contract Address:**
-\`\`\`
-0xaeb06836ac38e548ffafa57c95243696552e3a15
-\`\`\`
-You can click [here](https://etherscan.io/address/0xaeb06836ac38e548ffafa57c95243696552e3a15) to view the Bridge Smart Contract on Etherscan.
-
+# Doomer Bridge Migration 
 
 ## FAQ
 
@@ -51,3 +34,21 @@ This usually happens if you have not approved all your Doomer tokens in Step 2. 
 
 ![Avoid gas Error](./error1.png)
 
+# Bridge Migration 
+
+
+We have introduced a new smart contract for the Doomer token:
+
+**New Doomer Token Smart Contract:**
+\`\`\`
+0xc51043a39decddd17dde1a0c756d96b103e140a5
+\`\`\`
+You can click [here](https://etherscan.io/token/0xc51043a39decddd17dde1a0c756d96b103e140a5) to view the new $doomer token on Etherscan.
+
+We have also deployed a Bridge smart contract for the migration:
+
+**Bridge Smart Contract Address:**
+\`\`\`
+0xaeb06836ac38e548ffafa57c95243696552e3a15
+\`\`\`
+You can click [here](https://etherscan.io/address/0xaeb06836ac38e548ffafa57c95243696552e3a15) to view the Bridge Smart Contract on Etherscan.
