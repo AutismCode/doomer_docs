@@ -41,6 +41,7 @@ module.exports = {
         'technical/implementation',
         'technical/usage',
         'technical/api-reference',
+        'technical/migration',
       ],
     },
     {
