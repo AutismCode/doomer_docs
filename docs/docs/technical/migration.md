@@ -1,6 +1,6 @@
 ---
 id: migration
-title: migration
+title: Migration
 sidebar_label: migration
 ---
 
