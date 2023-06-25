@@ -1,7 +1,7 @@
 ---
-id: Migration
-title: Migration
-sidebar_label: Migration
+id: migration
+title: migration
+sidebar_label: migration
 ---
 
 # Bridge Migration 
