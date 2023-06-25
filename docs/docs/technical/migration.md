@@ -12,6 +12,10 @@ sidebar_label: Migration
 
 This Bridge is designed to provide you with a seamless and user-friendly experience. The entire process consists of just three easy steps: connect your wallet, approve your tokens, and migrate your tokens. This process directly exchanges your old tokens for new ones without any wait time or additional steps.
 
+### Can I transfer tokens after I migrate?
+
+No, you cannot transfer tokens until we officially announce the start of trading. Please keep this in mind when migrating your tokens. This function is in place to protect us from anyone attempting to add liquidity to the pool before we, as the project team, do it ourselves.
+
 ### What does Step 2 entail?
 
 In technical terms, Step 2 involves calling the approval function of $doomer v1 and giving permission to the Bridge Smart Contract to manage your tokens. In simpler terms, Step 2 is where you authorize the Bridge Smart Contract to handle your $doomer v1 tokens in preparation for Step 3 (TradeInToken).
