@@ -1,3 +1,8 @@
+---
+id: Migration
+title: Migration
+sidebar_label: Migration
+---
 ## FAQ
 
 ### Why should I use this Bridge?
