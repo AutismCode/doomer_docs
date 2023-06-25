@@ -24,5 +24,5 @@ No, the Bridge does not have access to your private keys.
 
 This usually happens if you have not approved all your Doomer tokens in Step 2. Make sure you approve all your Doomer tokens during Step 2 to prevent this error and ensure a successful transaction.
 
-![Avoid gas Error](../static/img/error1.png)
+![Avoid gas Error](./error1.png)
 
